@@ -7,6 +7,7 @@ const About = () => {
   return (
     <div className="text-center">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
+      <div className="h-1 w-32 bg-blue-500 mx-auto mt-2"></div>
       <div className="flex flex-col sm:flex-row justify-between">
 
          {/* Profile Picture */}
@@ -24,7 +25,7 @@ const About = () => {
           <p className="font-bold text-lg mb-2">Proffesion:</p>
           <p>Frontend Web Developer</p>
           <p className="font-bold text-lg mb-2">Education Level:</p>
-          <p>Master's Degree (In view)</p>
+          <p>Master's Degree</p>
           <p className="font-bold text-lg mb-2">Place of Residence:</p>
           <p>Darmstadt, Germany</p>
           <p className="font-bold text-lg mb-2">Relocation possible?:</p>
