@@ -31,9 +31,18 @@ const Resume = () => {
             <p className="text-gray-600 mb-1">Position Held: Junior Frontend Web Developer</p>
             <p className="text-gray-600 mb-4">Year: March 2021 - August 2022</p>
             <ul className="list-disc ml-6">
-              <li className="mb-2">Job Description 1</li>
-              <li className="mb-2">Job Description 2</li>
-              <li className="mb-2">Job Description 3</li>
+              <li className="mb-2">Led the development of a peer-to-peer shipping platform for a startup
+               company, utilizing HTML5, CSS3, JavaScript, and MySQL. Improved website performance and 
+               user engagement by implementing responsive design and user-friendly features.
+               </li>
+              <li className="mb-2">Architected and built a React, TypeScript, and GraphQL app that
+               consumed third-party APIs, resulting in faster API response times and improved user 
+               experience.
+               </li>
+              <li className="mb-2">Utilized design thinking, user experience design, and visual
+               communication skills to create visual representations of user stories using Figma.
+                Achieved more user-centric design and improved user engagement.
+                </li>
             </ul>
           </div>
           <div className="mb-8">
@@ -41,9 +50,18 @@ const Resume = () => {
             <p className="text-gray-600 mb-1">Position Held: Logistic Analyst</p>
             <p className="text-gray-600 mb-4">Year: June 2016 - Sept 2019</p>
             <ul className="list-disc ml-6">
-              <li className="mb-2">Job Description 1</li>
-              <li className="mb-2">Job Description 2</li>
-              <li className="mb-2">Job Description 3</li>
+              <li className="mb-2"> Tracked and analyzed transportation asset performance indicators 
+              using SQL, SAP, and MS Excel, resulting in a 50% reduction in offloading delay and transit
+               time, and a 50% increase in turnaround time.
+               </li>
+              <li className="mb-2"> Implemented preventive maintenance services for transportation
+               assets by utilizing SQL and SAP to track due dates, leading to a significant reduction
+                in equipment downtime.
+                </li>
+              <li className="mb-2"> Identified areas for improvement by analyzing key performance 
+              indicators using SQL and MS Excel, implementing solutions that increased efficiency
+               and reduced costs.
+               </li>
             </ul>
           </div>
         </div>
