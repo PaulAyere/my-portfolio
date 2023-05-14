@@ -10,12 +10,20 @@ const Resume = () => {
           <h3 className="text-xl font-semibold mb-4 text-blue-500">PROFESSIONAL EXPERIENCE</h3>
           <div className="mb-8">
             <h4 className="text-lg font-semibold mb-2 text-blue-500">FRAUNHOFER SCAI</h4>
-            <p className="text-gray-600 mb-1">Position Held: Junior Frontend Developer</p>
+            <p className="text-gray-600 mb-1">Position Held: Working Student,Frontend Developer</p>
             <p className="text-gray-600 mb-4">Year: Sept 2022 - March 2023</p>
             <ul className="list-disc ml-6">
-              <li className="mb-2">Job Description 1</li>
-              <li className="mb-2">Job Description 2</li>
-              <li className="mb-2">Job Description 3</li>
+              <li className="mb-2">Developed a responsive web application for data visualization
+               using React, TypeScript, and Plotly, and D3.js enabling users to explore and analyze 
+               complex data sets related to auto accidents.
+               </li>
+              <li className="mb-2">Implemented state management and data fetching techniques,
+               including Redux and Axios, to optimize the user experience and ensure the reliability
+               and scalability of the application.
+               </li>
+              <li className="mb-2">Collaborate with development, product, UX, and UI teams to ensure
+               an innovative design system with excellent alignment and usability.
+               </li>
             </ul>
           </div>
           <div className="mb-8">
@@ -29,7 +37,7 @@ const Resume = () => {
             </ul>
           </div>
           <div className="mb-8">
-            <h4 className="text-lg font-semibold mb-2 text-blue-500">DANGOTE CEMENT </h4>
+            <h4 className="text-lg font-semibold mb-2 text-blue-500">DANGOTE CEMENT, OBAJANA </h4>
             <p className="text-gray-600 mb-1">Position Held: Logistic Analyst</p>
             <p className="text-gray-600 mb-4">Year: June 2016 - Sept 2019</p>
             <ul className="list-disc ml-6">
