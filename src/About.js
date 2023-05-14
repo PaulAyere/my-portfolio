@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePicture from './image/Image1/hero4.png';
+import profilePicture from './image/Image1/hero42.png';
 
 
 
@@ -8,6 +8,11 @@ const About = () => {
     <div className="text-center">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
       <div className="flex flex-col sm:flex-row justify-between">
+
+         {/* Profile Picture */}
+        <div className="flex items-center justify-center w-full sm:w-1/3 mx-2">
+          <img src={profilePicture} alt="Profile" className="rounded-full w-64 h-64 sm:w-80 sm:h-80 mx-auto mb-4 sm:mb-0" />
+        </div>
         
          {/* Personal Information */}
         <div className="w-full sm:w-1/3 mx-2 mt-4 sm:mt-0">
@@ -24,14 +29,7 @@ const About = () => {
           <p>Darmstadt, Germany</p>
           <p className="font-bold text-lg mb-2">Relocation possible?:</p>
           <p>Yes</p>
-        </div>
-
-
-
-        {/* Profile Picture */}
-        <div className="flex items-center justify-center w-full sm:w-1/3 mx-2">
-          <img src={profilePicture} alt="Profile" className="rounded-full w-64 h-64 sm:w-80 sm:h-80 mx-auto mb-4 sm:mb-0" />
-        </div>
+        </div>      
 
        
 
