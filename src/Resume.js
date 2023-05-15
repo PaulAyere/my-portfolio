@@ -1,6 +1,10 @@
 import React from "react";
+import resumeFile from './assets/Paulinus_CV.pdf';
 
 const Resume = () => {
+   const handleDownload = () => {
+    window.open(resumeFile, "_blank");
+  };
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h2 className="text-3xl font-bold mb-6">Resume</h2>
@@ -81,7 +85,7 @@ const Resume = () => {
             </ul>
           </div>
           <div className="mb-8">
-            <h4 className="text-lg font-semibold mb-2 text-blue-500">TECHINAL UNIVERSITY DARMSTADT</h4>
+            <h4 className="text-lg font-semibold mb-2 text-blue-500">TECHNISCHE UNIVERSITAT DARMSTADT</h4>
             <p className="text-gray-600 mb-1">Degree: M.Sc. Tropical Hydrogeology and Environmental Engineering</p>
             {/* <p className="text-gray-600 mb-4">Year: </p> */}
           </div>
@@ -92,8 +96,15 @@ const Resume = () => {
           </div>
         </div>
       </div>
+      <div className="flex justify-center mt-8">
+        <button
+          className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+          onClick={handleDownload}
+        >
+          Download Resume
+        </button>
+      </div>
     </div>
   );
 };
-
 export default Resume;

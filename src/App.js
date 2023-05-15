@@ -3,10 +3,13 @@ import Hero from './Hero';
 import About from './About';
 import Facts from './Facts';
 import Resume from './Resume';
+import Skills from './Skills';
+import Softwares from './Softwares';
 // import AboutSection from './Aboutyou';
 import Projects from './projects';
 import Contact from './Contact';
 import './App.css';
+
 
 
 function App() {
@@ -17,7 +20,9 @@ function App() {
    <About></About>
    <Facts></Facts>
    <Resume></Resume>
-   {/* <AboutSection></AboutSection> */}
+   <Skills></Skills>
+   <Softwares></Softwares>
+      {/* <AboutSection></AboutSection> */}
    <Projects></Projects>
    <Contact></Contact>
    </div>
