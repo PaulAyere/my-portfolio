@@ -5,7 +5,6 @@ import Facts from './Facts';
 import Resume from './Resume';
 import Skills from './Skills';
 import Softwares from './Softwares';
-// import AboutSection from './Aboutyou';
 import Projects from './projects';
 import Contact from './Contact';
 import './App.css';
@@ -21,8 +20,7 @@ function App() {
    <Facts></Facts>
    <Resume></Resume>
    <Skills></Skills>
-   <Softwares></Softwares>
-      {/* <AboutSection></AboutSection> */}
+   <Softwares></Softwares>    
    <Projects></Projects>
    <Contact></Contact>
    </div>
