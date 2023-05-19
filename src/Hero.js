@@ -3,7 +3,7 @@ import image from './image/Image1/hero3.png';
 
 const Hero = () => {
   return (
-    <div className="bg-black min-h-screen flex flex-col md:flex-row">
+    <div id="home" className="bg-black min-h-screen flex flex-col md:flex-row">
       <div className="md:w-1/2 flex items-center justify-center">
         <img
           src={image}

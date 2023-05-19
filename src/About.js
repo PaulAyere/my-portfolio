@@ -15,7 +15,7 @@ const About = () => {
   };
 
   return (
-    <div className="text-center">
+    <div id="about" className="text-center">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
       <div className="h-1 w-32 bg-blue-500 mx-auto mt-2"></div>
       <div className="flex flex-col sm:flex-row justify-between">

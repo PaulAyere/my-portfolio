@@ -1,3 +1,4 @@
+import React from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import About from './About';
@@ -7,6 +8,7 @@ import Skills from './Skills';
 import Softwares from './Softwares';
 import Projects from './projects';
 import Contact from './Contact';
+import Footer from './Footer';
 import './App.css';
 
 
@@ -14,15 +16,16 @@ import './App.css';
 function App() {
   return (
     <div className="pt-0">
-   <Navbar></Navbar>,   
-   <Hero></Hero>
-   <About></About>
-   <Facts></Facts>
-   <Resume></Resume>
-   <Skills></Skills>
-   <Softwares></Softwares>    
-   <Projects></Projects>
-   <Contact></Contact>
+   <Navbar/>  
+   <Hero/>
+   <About/>
+   <Facts/>
+   <Resume/>
+   <Skills/>
+   <Softwares/>    
+   <Projects/>
+   <Contact/>
+   <Footer/>
    </div>
   );
 }

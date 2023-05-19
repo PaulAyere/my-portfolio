@@ -100,6 +100,8 @@ export const education = [
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project1',
       viewLink: 'https://project1.com',
+      tags: ['HTML/CSS', 'Javascript/Typescript'],
+      status: 'Ongoing',
     },
     {
       id: 2,
@@ -108,6 +110,8 @@ export const education = [
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
       viewLink: 'https://project2.com',
+      tags: ['HTML/CSS', 'Javascript/Typescript'],
+      status: 'Ongoing',
     },
     {
       id: 3,
@@ -116,6 +120,8 @@ export const education = [
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
       viewLink: 'https://project2.com',
+      tags: ['HTML/CSS', 'Javascript/Typescript'],
+      status: 'Ongoing',
     },
     {
       id: 4,
@@ -124,6 +130,8 @@ export const education = [
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
       viewLink: 'https://project2.com',
+      tags: ['HTML/CSS', 'Javascript/Typescript'],
+      status: 'Ongoing',
     },
     {
       id: 5,
@@ -132,6 +140,8 @@ export const education = [
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
       viewLink: 'https://project2.com',
+      tags: ['HTML/CSS', 'Javascript/Typescript'],
+      status: 'Ongoing',
     },
     {
       id: 6,
@@ -140,6 +150,8 @@ export const education = [
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
       viewLink: 'https://project2.com',
+     tags: ['React',],
+     status: 'Ongoing',
     },
     {
       id: 7,
@@ -148,6 +160,8 @@ export const education = [
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
       viewLink: 'https://project2.com',
+      tags: ['React',],
+      status: 'Ongoing',
     },
     {
       id: 8,
@@ -156,6 +170,8 @@ export const education = [
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
       viewLink: 'https://project2.com',
+      tags: ['React',],
+      status: 'Ongoing',
     },
     // Add two more project objects here
   ];
@@ -239,4 +255,10 @@ export const facts = [
       icon: 'fas fa-shield-alt',
       text: 'Strong and Resilient',
     },
+  ];
+   export const menuItems = [
+    { label: 'Home', href: '#' },
+    { label: 'About', href: '#' },
+    { label: 'Projects', href: '#' },
+    { label: 'Contact', href: '#' },
   ];
