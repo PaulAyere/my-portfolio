@@ -221,3 +221,22 @@ export const education = [
   },
   // Add more software items as needed
 ];
+
+export const facts = [
+    {
+      icon: 'fas fa-lightbulb',
+      text: 'Open to New Challenges',
+    },
+    {
+      icon: 'fas fa-brain',
+      text: 'Critical Thinker',
+    },
+    {
+      icon: 'fas fa-bolt',
+      text: 'Learn Fast',
+    },
+    {
+      icon: 'fas fa-shield-alt',
+      text: 'Strong and Resilient',
+    },
+  ];

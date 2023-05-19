@@ -1,11 +1,11 @@
 import React from 'react';
 import profilePicture from './image/Image1/hero42.png';
-import {contactInformation,personalInformation} from './assets/data'
+import {personalInformation,contactInformation} from './assets/data'
 
 
 
 const About = () => {
-const renderInformation = (data) => {
+  const renderInformation = (data) => {
     return data.map((item, index) => (
       <React.Fragment key={index}>
         <p className="font-bold text-lg mb-2">{item.label}</p>
