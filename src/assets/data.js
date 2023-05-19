@@ -257,8 +257,8 @@ export const facts = [
     },
   ];
    export const menuItems = [
-    { label: 'Home', href: '#' },
-    { label: 'About', href: '#' },
-    { label: 'Projects', href: '#' },
-    { label: 'Contact', href: '#' },
+    { label: 'Home', href: 'home' },
+    { label: 'About', href: '#about' },
+    { label: 'Projects', href: '#project' },
+    { label: 'Contact', href: '#contact' },
   ];
