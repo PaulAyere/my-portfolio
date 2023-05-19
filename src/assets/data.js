@@ -91,3 +91,133 @@ export const education = [
       ],
     },
   ];
+
+  export const projectData = [
+    {
+      id: 1,
+      imageSrc: '/path_to_image_1.jpg',
+      title: 'Project 1',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      githubLink: 'https://github.com/project1',
+      viewLink: 'https://project1.com',
+    },
+    {
+      id: 2,
+      imageSrc: '/path_to_image_2.jpg',
+      title: 'Project 2',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      githubLink: 'https://github.com/project2',
+      viewLink: 'https://project2.com',
+    },
+    {
+      id: 3,
+      imageSrc: '/path_to_image_3.jpg',
+      title: 'Project 3',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      githubLink: 'https://github.com/project2',
+      viewLink: 'https://project2.com',
+    },
+    {
+      id: 4,
+      imageSrc: '/path_to_image_4.jpg',
+      title: 'Project 4',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      githubLink: 'https://github.com/project2',
+      viewLink: 'https://project2.com',
+    },
+    {
+      id: 5,
+      imageSrc: '/path_to_image_5.jpg',
+      title: 'Project 5',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      githubLink: 'https://github.com/project2',
+      viewLink: 'https://project2.com',
+    },
+    {
+      id: 6,
+      imageSrc: '/path_to_image_6.jpg',
+      title: 'Project 6',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      githubLink: 'https://github.com/project2',
+      viewLink: 'https://project2.com',
+    },
+    {
+      id: 7,
+      imageSrc: '/path_to_image_2.jpg',
+      title: 'Project 7',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      githubLink: 'https://github.com/project2',
+      viewLink: 'https://project2.com',
+    },
+    {
+      id: 8,
+      imageSrc: '/path_to_image_2.jpg',
+      title: 'Project 8',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      githubLink: 'https://github.com/project2',
+      viewLink: 'https://project2.com',
+    },
+    // Add two more project objects here
+  ];
+
+  export  const personalInformation = [
+    { label: 'Surname:', value: 'Aghughu' },
+    { label: 'First Name:', value: 'Paulinus Ayere' },
+    { label: 'Profession:', value: 'Frontend Web Developer' },
+    { label: 'Education Level:', value: "Master's Degree" },
+    { label: 'Place of Residence:', value: 'Darmstadt, Germany' },
+    { label: 'Relocation possible?:', value: 'Yes' },
+  ];
+
+  export const contactInformation = [
+    { label: 'Phone Number:', value: '+49 15752801414' },
+    { label: 'Email Address:', value: 'paulinusaghughu@gmail.com' },
+    { label: 'Open to work?:', value: 'Yes' },
+    { label: 'Interested in:', value: 'Remote Work. Office or Hybrid work arrangement' },
+    { label: 'LinkedIn:', value: 'https://www.linkedin.com/in/paulinusaghughu' },
+    { label: 'GitHub:', value: 'https://github.com/PaulAyere' },
+  ];
+
+  export const softwareItems = [
+  {
+    icon: 'fas fa-figma',
+    name: 'Figma',
+  },
+  {
+    icon: 'fas fa-code',
+    name: 'VSCode',
+  },
+  {
+    icon: 'fas fa-microphone',
+    name: 'Miro',
+  },
+  {
+    icon: 'fab fa-gitlab',
+    name: 'GitLab',
+  },
+  {
+    icon: 'fab fa-github',
+    name: 'GitHub',
+  },
+  {
+    icon: 'fas fa-cogs',
+    name: 'Maven',
+  },
+  {
+    icon: 'fab fa-slack',
+    name: 'Slack',
+  },
+  {
+    icon: 'fab fa-jira',
+    name: 'Jira',
+  },
+  {
+    icon: 'fas fa-users-cog',
+    name: 'Scrum',
+  },
+  {
+    icon: 'fab fa-google',
+    name: 'Google Cloud',
+  },
+  // Add more software items as needed
+];
