@@ -14,8 +14,8 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-   <Navbar></Navbar>,
+    <div className="pt-0">
+   <Navbar></Navbar>,   
    <Hero></Hero>
    <About></About>
    <Facts></Facts>
