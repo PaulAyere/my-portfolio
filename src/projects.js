@@ -5,7 +5,7 @@ const Projects = () => {
   const [activeTag, setActiveTag] = useState('All'); // State to keep track of active tag
  
 
-  const tags = ['All', 'HTML/CSS', 'Javascript/Typescript', 'React']; // List of tags
+  const tags = ['All', 'HTML/CSS', 'Javascript', 'React','Tailwind',]; // List of tags
 
   const filteredProjects = activeTag === 'All' ? projectData : projectData.filter(project => project.tags.includes(activeTag));
 
