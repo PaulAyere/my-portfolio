@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import {projectData} from './assets/data'
+import { projectData } from './assets/data';
 
 const Projects = () => {
   const [activeTag, setActiveTag] = useState('All'); // State to keep track of active tag
- 
 
-  const tags = ['All', 'HTML/CSS', 'Javascript', 'React','Tailwind',]; // List of tags
+  const tags = ['All', 'HTML/CSS', 'Javascript', 'React', 'Tailwind']; // List of tags
 
   const filteredProjects = activeTag === 'All' ? projectData : projectData.filter(project => project.tags.includes(activeTag));
 
@@ -30,7 +29,7 @@ const Projects = () => {
         {/* Display filtered projects */}
         {filteredProjects.map(project => (
           <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg m-4">
-            <img className="w-full" src={project.imageSrc} alt="Project" />
+            <img className="w-full" src={project.imageSrc} alt="Project" /> {/* Use the imported image source */}
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">{project.title}</div>
               <p className="text-gray-700 text-base">{project.description}</p>
