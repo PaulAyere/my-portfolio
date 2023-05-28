@@ -1,6 +1,7 @@
 import home2 from '../assets/Image/home2.jpg';
 import home from '../assets/Image/home.png';
 import home3 from '../assets/Image/home3.PNG';
+import home4 from '../assets/Image/home4.PNG'
 
 export const experiences = [
   {
@@ -101,7 +102,7 @@ export const education = [
       id: 1,
       imageSrc: home3,
       title: 'Project 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Personal portfolio website using React and Tailwind styling .',
       githubLink: 'https://github.com/project1',
       viewLink: 'https://project1.com',
       tags: ['Tailwind', 'React'],
@@ -129,19 +130,19 @@ export const education = [
     },
     {
       id: 4,
-      imageSrc: home2,
+      imageSrc: home4,
       title: 'Project 4',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Data visualization using React and D3.js.',
       githubLink: 'https://github.com/project2',
       viewLink: 'https://project2.com',
-      tags: ['HTML/CSS', 'Javascript/Typescript'],
+      tags: ['D3.js', 'React'],
       status: 'Ongoing',
     },
     {
       id: 5,
       imageSrc: home,
       title: 'Project 5',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Coporate website with HTML,CSS and Javascript.',
       githubLink: 'https://github.com/PaulAyere/BOK-Engineering-website-design-with-HTML-CSS-and-Javascript.git',
       viewLink: 'https://bok-page.netlify.app/',
       tags: ['HTML/CSS', 'Javascript'],
@@ -171,10 +172,10 @@ export const education = [
       id: 8,
       imageSrc: home2,
       title: 'Project 8',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Basic Landing page with HTML and CSS.',
       githubLink: 'https://github.com/PaulAyere/Asylic.git',
       viewLink: 'https://62892e67dc2b013ce2e8fc8b--acrylicweb.netlify.app/',
-      tags: ['React',],
+      tags: ['HTML/CSS',],
       status: 'Ongoing',
     },
     // Add two more project objects here
