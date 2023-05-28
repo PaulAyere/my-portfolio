@@ -1,7 +1,8 @@
 import home2 from '../assets/Image/home2.jpg';
 import home from '../assets/Image/home.png';
 import home3 from '../assets/Image/home3.PNG';
-import home4 from '../assets/Image/home4.PNG'
+import home4 from '../assets/Image/home4.PNG';
+import home5 from '../assets/Image/home5.PNG';
 
 export const experiences = [
   {
@@ -103,14 +104,14 @@ export const education = [
       imageSrc: home3,
       title: 'Project 1',
       description: 'Personal portfolio website using React and Tailwind styling .',
-      githubLink: 'https://github.com/project1',
+      githubLink: 'https://github.com/PaulAyere/my-portfolio',
       viewLink: 'https://project1.com',
       tags: ['Tailwind', 'React'],
       status: 'Ongoing',
     },
     {
       id: 2,
-      imageSrc: home2,
+      // imageSrc: home2,
       title: 'Project 2',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
@@ -120,7 +121,7 @@ export const education = [
     },
     {
       id: 3,
-      imageSrc: home,
+      // imageSrc: home,
       title: 'Project 3',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
@@ -133,7 +134,7 @@ export const education = [
       imageSrc: home4,
       title: 'Project 4',
       description: 'Data visualization using React and D3.js.',
-      githubLink: 'https://github.com/project2',
+      githubLink: 'https://github.com/PaulAyere/Data-visualization',
       viewLink: 'https://project2.com',
       tags: ['D3.js', 'React'],
       status: 'Ongoing',
@@ -150,7 +151,7 @@ export const education = [
     },
     {
       id: 6,
-      imageSrc: home2,
+      // imageSrc: home2,
       title: 'Project 6',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       githubLink: 'https://github.com/project2',
@@ -160,13 +161,13 @@ export const education = [
     },
     {
       id: 7,
-      imageSrc: home,
+      imageSrc: home5,
       title: 'Project 7',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      githubLink: 'https://github.com/project2',
-      viewLink: 'https://project2.com',
-      tags: ['React',],
-      status: 'Ongoing',
+      description: 'Digital clock design with HTML,CSS and Javascript',
+      githubLink: 'https://github.com/PaulAyere/https---github.com-PaulAyere-Digital-clock-with-html-css-and-javascript',
+      viewLink: 'https://silver-sherbet-77e8a0.netlify.app/',
+      tags: ['HTML/CSS', 'Javascript'],
+      status: 'Completed',
     },
     {
       id: 8,
@@ -176,7 +177,7 @@ export const education = [
       githubLink: 'https://github.com/PaulAyere/Asylic.git',
       viewLink: 'https://62892e67dc2b013ce2e8fc8b--acrylicweb.netlify.app/',
       tags: ['HTML/CSS',],
-      status: 'Ongoing',
+      status: 'Completed',
     },
     // Add two more project objects here
   ];
