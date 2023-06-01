@@ -40,12 +40,16 @@ const Projects = () => {
             <div className="px-6 py-4 flex justify-between">
               <a
                 href={project.githubLink}
+                target="_blank" // Open link in a new tab
+                rel="noopener noreferrer" // Recommended for security reasons
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 Github
               </a>
               <a
                 href={project.viewLink}
+                target="_blank" // Open link in a new tab
+                rel="noopener noreferrer" // Recommended for security reasons
                 className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
               >
                 View
