@@ -135,7 +135,7 @@ export const education = [
       title: 'Project 4',
       description: 'Data visualization using React and D3.js.',
       githubLink: 'https://github.com/PaulAyere/Data-visualization',
-      viewLink: 'https://project2.comhttps://data-vizualization.netlify.app/',
+      viewLink: 'https://data-vizualization.netlify.app/',
       tags: ['D3.js', 'React'],
       status: 'Ongoing',
     },
