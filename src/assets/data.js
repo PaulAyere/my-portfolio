@@ -105,7 +105,7 @@ export const education = [
       title: 'Project 1',
       description: 'Personal portfolio website using React and Tailwind styling .',
       githubLink: 'https://github.com/PaulAyere/my-portfolio',
-      viewLink: 'https://app.netlify.com/sites/paulinus-ayere-portfolio/settings/domain',
+      viewLink: 'https://paulinus-ayere-portfolio.netlify.app/',
       tags: ['Tailwind', 'React'],
       status: 'Ongoing',
     },
