@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="md:w-1/2 flex items-center justify-center">
         <img
           src={image}
-          alt="Hero Image"
+          alt="Hero"
           className="w-full h-auto"
         />
       </div>
