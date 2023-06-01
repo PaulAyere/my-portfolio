@@ -41,7 +41,7 @@ const Projects = () => {
               <a
                 href={project.githubLink}
                 target="_blank" // Open link in a new tab
-                rel="noopener noreferrer" // Recommended for security reasons
+                rel="noopener noreferrer" 
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 Github
@@ -49,7 +49,7 @@ const Projects = () => {
               <a
                 href={project.viewLink}
                 target="_blank" // Open link in a new tab
-                rel="noopener noreferrer" // Recommended for security reasons
+                rel="noopener noreferrer" 
                 className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
               >
                 View
