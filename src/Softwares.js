@@ -9,7 +9,7 @@ const Softwares = () => {
         {softwareItems.map((item, index) => (
           <div key={index} className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 p-4">
             <div className="flex flex-col items-center">
-              <div className="rounded-full bg-blue-500 hover:bg-fuchsia-600 w-20 h-20 flex items-center justify-center">
+              <div className="rounded-full bg-gradient-to-r from-fuchsia-900 to-pink-400 hover:bg-fuchsia-600 w-20 h-20 flex items-center justify-center">
                 <i className={`${item.icon} text-white text-4xl`}></i>
               </div>
               <p className="text-lg font-semibold mt-2">{item.name}</p>
