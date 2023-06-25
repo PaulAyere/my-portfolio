@@ -42,7 +42,7 @@ const Projects = () => {
                 href={project.githubLink}
                 target="_blank" // Open link in a new tab
                 rel="noopener noreferrer" 
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                className="bg-gradient-to-r from-pink-500 to-red-300 hover:bg-blue-600 text-white font-bold py-1 px-4 rounded-2xl"
               >
                 Github
               </a>
@@ -50,7 +50,7 @@ const Projects = () => {
                 href={project.viewLink}
                 target="_blank" // Open link in a new tab
                 rel="noopener noreferrer" 
-                className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+                className="bg-gradient-to-r from-fuchsia-900 to-pink-400 hover:bg-blue-600 text-white font-bold py-1 px-6 rounded-2xl"
               >
                 View
               </a>

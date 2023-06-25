@@ -24,7 +24,7 @@ const Navbar = () => {
       <a
         key={index}
         href={item.href}
-        className={`text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-m font-medium ${
+        className={`text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-m font-medium ${
           activeMenu === index ? 'border-b-2 border-white' : ''
         }`}
         onMouseEnter={() => handleMenuHover(index)}
@@ -47,7 +47,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 className="flex-shrink-0"
               >
-                <i className="fab fa-linkedin text-white text-xl"></i>
+                <i className="fab fa-linkedin text-white text-xl hover:text-fuchsia-500"></i>
               </a>
               <a
                 href="https://github.com/PaulAyere"
@@ -55,7 +55,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 className="flex-shrink-0 ml-2"
               >
-                <i className="fab fa-github text-white text-xl"></i>
+                <i className="fab fa-github text-white text-xl hover:text-fuchsia-500"></i>
               </a>
             </div>
           </div>

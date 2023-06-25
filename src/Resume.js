@@ -21,10 +21,10 @@ const Resume = () => {
     return (
       <div className="md:w-3/5 relative">
         <div className="line"></div>
-        <h3 className="text-xl font-semibold mb-4 text-blue-500">PROFESSIONAL EXPERIENCE</h3>
+        <h3 className="text-xl font-semibold mb-4 text-blue-900">PROFESSIONAL EXPERIENCE</h3>
         {experiences.map((experience, index) => (
           <div className="mb-8" key={index}>
-            <h4 className="text-lg font-semibold mb-2 text-blue-500">{experience.company}</h4>
+            <h4 className="text-lg font-semibold mb-2 text-fuchsia-500">{experience.company}</h4>
             <p className="text-gray-600 mb-1">Position Held: {experience.position}</p>
             <p className="text-gray-600 mb-4">Year: {experience.year}</p>
             {renderResponsibilities(experience.responsibilities)}
@@ -48,10 +48,10 @@ const Resume = () => {
     return (
       <div className="md:w-2/5">
         <div className="line"></div>
-        <h3 className="text-xl font-semibold mb-4 text-blue-500">EDUCATION</h3>
+        <h3 className="text-xl font-semibold mb-4 text-blue-900">EDUCATION</h3>
         {education.map((edu, index) => (
           <div className="mb-8" key={index}>
-            <h4 className="text-lg font-semibold mb-2 text-blue-500">{edu.institution}</h4>
+            <h4 className="text-lg font-semibold mb-2 text-fuchsia-500">{edu.institution}</h4>
             <p className="text-gray-600 mb-1">Degree: {edu.degree}</p>
             {edu.year && <p className="text-gray-600 mb-4">Year: {edu.year}</p>}
             {edu.courses && renderCourses(edu.courses)}
@@ -70,7 +70,7 @@ const Resume = () => {
       </div>
       <div className="flex justify-center mt-8">
         <button
-          className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+          className="bg-gradient-to-r from-fuchsia-900 to-pink-400 hover:bg-blue-600 text-white font-bold py-1 px-4 rounded-2xl"
           onClick={handleDownload}
         >
           Download Resume

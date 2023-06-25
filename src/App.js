@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import About from './About';
 import Facts from './Facts';
+
 import Resume from './Resume';
 import Skills from './Skills';
 import Softwares from './Softwares';
@@ -20,6 +21,7 @@ function App() {
    <Hero/>
    <About/>
    <Facts/>
+  
    <Resume/>
    <Skills/>
    <Softwares/>    
