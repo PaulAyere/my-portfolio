@@ -1,8 +1,8 @@
-import home2 from '../assets/Image/home2.png';
-import home1 from '../assets/Image/home1.png';
+
 import home from '../assets/Image/home.png';
+import home1 from '../assets/Image/home1.png';
+import home2 from '../assets/Image/home2.png';
 import home3 from '../assets/Image/home3.png';
-// import home4 from '../assets/Image/home4.PNG';
 import home5 from '../assets/Image/home5.png';
 import home6 from '../assets/Image/home6.png';
 import home7 from '../assets/Image/home7.png';
