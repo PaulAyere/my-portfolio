@@ -1,5 +1,5 @@
 import React from 'react';
-import { skills } from './assets/data';
+import { skills } from '../assets/data';
 
 const Skills = () => {
    const renderSkills = (skills) => {
@@ -23,7 +23,7 @@ const Skills = () => {
           </p>
         </div>
         <div className="bg-gray-300 h-2 rounded-full">
-          <div className="bg-blue-500 h-full rounded-full" style={{ width: item.percentage ? `${item.percentage}%` : '100%' }}></div>
+          <div className="bg-gradient-to-r from-fuchsia-900 to-pink-400 h-full rounded-full" style={{ width: item.percentage ? `${item.percentage}%` : '100%' }}></div>
         </div>
       </div>
     ));
