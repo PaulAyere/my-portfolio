@@ -1,5 +1,5 @@
 import React from 'react';
-import {facts} from './assets/data'
+import {facts} from '../assets/data'
 
 const Facts = () => {
   return (

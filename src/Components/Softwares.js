@@ -1,5 +1,5 @@
 import React from 'react';
-import { softwareItems } from './assets/data';
+import { softwareItems } from '../assets/data';
 
 const Softwares = () => {
   return (

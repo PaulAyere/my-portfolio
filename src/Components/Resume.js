@@ -1,6 +1,6 @@
 import React from "react";
 import resumeFile from './assets/Paulinus_CV.pdf';
-import { experiences, education } from './assets/data';
+import { experiences, education } from '../assets/data';
 
 const Resume = () => {
   const handleDownload = () => {

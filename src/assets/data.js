@@ -1,8 +1,11 @@
-import home2 from '../assets/Image/home2.jpg';
+import home2 from '../assets/Image/home2.png';
+import home1 from '../assets/Image/home1.png';
 import home from '../assets/Image/home.png';
-import home3 from '../assets/Image/home3.PNG';
-import home4 from '../assets/Image/home4.PNG';
-import home5 from '../assets/Image/home5.PNG';
+import home3 from '../assets/Image/home3.png';
+// import home4 from '../assets/Image/home4.PNG';
+import home5 from '../assets/Image/home5.png';
+import home6 from '../assets/Image/home6.png';
+import home7 from '../assets/Image/home7.png';
 
 export const experiences = [
   {
@@ -111,29 +114,29 @@ export const education = [
     },
     {
       id: 2,
-      // imageSrc: home2,
+      imageSrc: home6,
       title: 'Project 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      githubLink: 'https://github.com/project2',
-      viewLink: 'https://project2.com',
-      tags: ['HTML/CSS', 'Javascript/Typescript'],
+      description: 'Web design for start up.',
+      githubLink: 'https://github.com/PaulAyere/App-Design',
+      viewLink: 'https://app-designn.netlify.app/',
+      tags: ['Tailwind', 'React', 'Javascript/Typescript'],
       status: 'Ongoing',
     },
     {
       id: 3,
-      // imageSrc: home,
+      imageSrc: home1,
       title: 'Project 3',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      githubLink: 'https://github.com/project2',
-      viewLink: 'https://project2.com',
-      tags: ['HTML/CSS', 'Javascript/Typescript'],
+      description: 'Ecommerce product section with API fetch.',
+      githubLink: 'https://github.com/PaulAyere/ecommerce-shop-with-API',
+      viewLink: 'https://ecomerce-api-store.netlify.app/',
+      tags: ['Tailwind', 'React', 'Javascript/Typescript'],
       status: 'Ongoing',
     },
     {
       id: 4,
-      imageSrc: home4,
+      imageSrc: home7,
       title: 'Project 4',
-      description: 'Data visualization using React and D3.js.',
+      description: 'Data visualization for multi-line curves using React and D3.js.',
       githubLink: 'https://github.com/PaulAyere/Data-visualization',
       viewLink: 'https://data-vizualization.netlify.app/',
       tags: ['D3.js', 'React'],
@@ -151,9 +154,9 @@ export const education = [
     },
     {
       id: 6,
-      // imageSrc: home2,
+      imageSrc: home6,
       title: 'Project 6',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Data visualization for multi-line curves using React and CanvaJs.',
       githubLink: 'https://github.com/project2',
       viewLink: 'https://project2.com',
      tags: ['React',],
