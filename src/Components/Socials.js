@@ -3,6 +3,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
+import CV from "../assets/Aghughu Paulinus_Ayere.pdf"; // Update the CV file path
+
 const SocialLinks = () => {
   const links = [
     {
@@ -40,9 +42,9 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/assets/Paulinus_CV.pdf",
+      href: CV, // Use the CV file path
       style: "rounded-br-md",
-      download: true,
+      download: "Aghughu Paulinus_Ayere.pdf", // Set the desired filename for download
     },
   ];
 
