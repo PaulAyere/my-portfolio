@@ -2,7 +2,7 @@
 import home from '../assets/Image/home.png';
 import home1 from '../assets/Image/home1.png';
 import home2 from '../assets/Image/home2.png';
-import home3 from '../assets/Image/home3.png';
+import port from '../assets/Image/port.png';
 import home5 from '../assets/Image/home5.png';
 import home6 from '../assets/Image/home6.png';
 import home7 from '../assets/Image/home7.png';
@@ -104,7 +104,7 @@ export const education = [
   export const projectData = [
     {
       id: 1,
-      imageSrc: home3,
+      imageSrc: port,
       title: 'Project 1',
       description: 'Personal portfolio website using React and Tailwind styling .',
       githubLink: 'https://github.com/PaulAyere/my-portfolio',
