@@ -1,11 +1,11 @@
 
-import home from '../assets/Image/home.png';
-import home1 from '../assets/Image/home1.png';
-import home2 from '../assets/Image/home2.png';
+import corporate from '../assets/Image/corporate.png';
+import ecommerce from '../assets/Image/ecommerce.png';
+import landing from '../assets/Image/landing.png';
 import port from '../assets/Image/port.png';
-import home5 from '../assets/Image/home5.png';
-import home6 from '../assets/Image/home6.png';
-import home7 from '../assets/Image/home7.png';
+import digital from '../assets/Image/digital.png';
+import webapp from '../assets/Image/webapp.png';
+import visual from '../assets/Image/visual.png';
 
 export const experiences = [
   {
@@ -114,7 +114,7 @@ export const education = [
     },
     {
       id: 2,
-      imageSrc: home6,
+      imageSrc: webapp,
       title: 'Project 2',
       description: 'Web design for start up.',
       githubLink: 'https://github.com/PaulAyere/App-Design',
@@ -124,7 +124,7 @@ export const education = [
     },
     {
       id: 3,
-      imageSrc: home1,
+      imageSrc: ecommerce,
       title: 'Project 3',
       description: 'Ecommerce product section with API fetch.',
       githubLink: 'https://github.com/PaulAyere/ecommerce-shop-with-API',
@@ -134,7 +134,7 @@ export const education = [
     },
     {
       id: 4,
-      imageSrc: home7,
+      imageSrc: visual,
       title: 'Project 4',
       description: 'Data visualization for multi-line curves using React and D3.js.',
       githubLink: 'https://github.com/PaulAyere/Data-visualization',
@@ -144,7 +144,7 @@ export const education = [
     },
     {
       id: 5,
-      imageSrc: home,
+      imageSrc: corporate,
       title: 'Project 5',
       description: 'Coporate website with HTML,CSS and Javascript.',
       githubLink: 'https://github.com/PaulAyere/BOK-Engineering-website-design-with-HTML-CSS-and-Javascript.git',
@@ -154,7 +154,7 @@ export const education = [
     },
     {
       id: 6,
-      imageSrc: home6,
+      imageSrc: webapp,
       title: 'Project 6',
       description: 'Data visualization for multi-line curves using React and CanvaJs.',
       githubLink: 'https://github.com/project2',
@@ -164,7 +164,7 @@ export const education = [
     },
     {
       id: 7,
-      imageSrc: home5,
+      imageSrc: digital,
       title: 'Project 7',
       description: 'Digital clock design with HTML,CSS and Javascript',
       githubLink: 'https://github.com/PaulAyere/https---github.com-PaulAyere-Digital-clock-with-html-css-and-javascript',
@@ -174,7 +174,7 @@ export const education = [
     },
     {
       id: 8,
-      imageSrc: home2,
+      imageSrc: landing,
       title: 'Project 8',
       description: 'Basic Landing page with HTML and CSS.',
       githubLink: 'https://github.com/PaulAyere/Asylic.git',
